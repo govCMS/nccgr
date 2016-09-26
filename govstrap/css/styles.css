@@ -1,0 +1,103 @@
+/*
+ * ======================
+ * Site common style
+ * ======================
+ */
+/* line 7, ../src/sass/styles.scss */
+body {
+  background: #9bc3d5 url(../img/bkg.png) top repeat-x;
+  font-family: Tahoma, Helvetica, Arial, sans-serif;
+  margin: 24px auto;
+}
+
+/* line 12, ../src/sass/styles.scss */
+.header {
+  border-color: #67939B;
+  background-color: #4b5559;
+  color: #fff;
+  padding: 2.5em 3em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 3px solid #67939B;
+}
+
+/* line 21, ../src/sass/styles.scss */
+.navigation {
+  border-bottom: 3px solid #67939B;
+  height: 3.5em;
+  background: #fff;
+}
+/* line 25, ../src/sass/styles.scss */
+.navigation .menu {
+  position: relative;
+  bottom: -3px;
+}
+/* line 28, ../src/sass/styles.scss */
+.navigation .menu ul {
+  margin-left: 2em;
+}
+/* line 31, ../src/sass/styles.scss */
+.navigation .menu ul li a {
+  background-color: #526a74;
+  color: #fff;
+  display: block;
+  padding: 0.6em 1em;
+  margin-right: 0.2em;
+  font-weight: bold;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  min-height: 2.4em;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+/* line 43, ../src/sass/styles.scss */
+.navigation .menu ul li a:hover {
+  background-color: #5c7d86;
+}
+
+/* line 52, ../src/sass/styles.scss */
+.main-container #content {
+  background: #E2EBF8;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* line 56, ../src/sass/styles.scss */
+.main-container #content a, .main-container #content a:visited {
+  color: #7f1d1d;
+}
+/* line 59, ../src/sass/styles.scss */
+.main-container #content a:hover {
+  color: #c40000;
+}
+/* line 62, ../src/sass/styles.scss */
+.main-container #content #main-content-section {
+  padding: 1em 2em;
+  background: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* line 69, ../src/sass/styles.scss */
+.main-container #content .links.inline li {
+  padding: 0.5em 0;
+}
+
+/*
+ * ======================
+ * Site head style
+ * ======================
+ */
+/*
+ * ======================
+ * Site content style
+ * ======================
+ */
+/*
+ * ======================
+ * Site side style
+ * ======================
+ */
+/*
+ * ======================
+ * Site bottom style
+ * ======================
+ */

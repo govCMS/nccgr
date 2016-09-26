@@ -6,14 +6,18 @@
 ?>
 <header id="header" class="header <?php print $container_class; ?>" role="banner">
   <?php print render($page['header']); ?>
+  <h1><?php print $site_name; ?></h1>
 </header><!-- /#page-header -->
-
-<nav id="navigation" class="<?php print $container_class; ?>">
-  <?php print render($page['navigation']); ?>
-</nav><!-- /#navigation -->
 
 <main>
   <div id="main" class="main-container <?php print $container_class; ?>">
+    <img src="<?php print $base_path . path_to_theme(); ?>/img/cropped-45607-NCCGR_presentaion_add_bleed.jpg" alt="" />
+    <?php if (!empty($page['navigation'])): ?>
+      <h2 class="sr-only">Navigation</h2>
+      <div class="navigation">
+        <nav class="menu"><?php print render($page['navigation']); ?></nav>
+      </div>
+    <?php endif; ?>
     <?php if (!empty($page['highlighted'])): ?>
       <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
     <?php endif; ?>

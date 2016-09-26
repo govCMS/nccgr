@@ -4,6 +4,75 @@
  * ======================
  */
 
+body {
+  background: #9bc3d5 url(../img/bkg.png) top repeat-x;
+  font-family: Tahoma, Helvetica, Arial, sans-serif;
+  margin: 24px auto;
+}
+.header {
+  border-color: #67939B;
+  background-color: #4b5559;
+  color: #fff;
+  padding: 2.5em 3em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 3px solid #67939B;
+}
+.navigation {
+  border-bottom: 3px solid #67939B;
+  height: 3.5em;
+  background: #fff;
+  .menu {
+    position: relative;
+    bottom: -3px;
+    ul {
+      margin-left: 2em;
+      li {
+        a {
+          background-color: #526a74;
+          color: #fff;
+          display: block;
+          padding: 0.6em 1em;
+          margin-right: 0.2em;
+          font-weight: bold;
+          border-top-left-radius: 3px;
+          border-top-right-radius: 3px;
+          min-height: 2.4em;
+          font-size: 1.1em;
+          text-decoration: none;
+          &:hover {
+            background-color: #5c7d86;
+          }
+        }
+      }
+    }
+  }
+}
+.main-container {
+  #content {
+    background: #E2EBF8;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    a, a:visited {
+      color: #7f1d1d;
+    }
+    a:hover {
+      color: #c40000;
+    }
+    #main-content-section {
+      padding: 1em 2em;
+      background: #fff;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    .links.inline {
+      li {
+        padding: 0.5em 0;
+      }
+    }
+  }
+}
+
 /*
  * ======================
  * Site head style

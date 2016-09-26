@@ -47,11 +47,11 @@
 // $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace
 // $font-family-base:        $font-family-sans-serif
 
-// $font-size-base:          14px
+$font-size-base:          11px;
 // $font-size-large:         ceil(($font-size-base * 1.25)) // ~18px
 // $font-size-small:         ceil(($font-size-base * 0.85)) // ~12px
 
-// $font-size-h1:            floor(($font-size-base * 2.6)) // ~36px
+$font-size-h1:            floor(($font-size-base * 2.5));
 // $font-size-h2:            floor(($font-size-base * 2.15)) // ~30px
 // $font-size-h3:            ceil(($font-size-base * 1.7)) // ~24px
 // $font-size-h4:            ceil(($font-size-base * 1.25)) // ~18px
@@ -313,7 +313,7 @@
 //** Number of columns in the grid.
 // $grid-columns:              12
 //** Padding between columns. Gets divided in half for the left and right.
-// $grid-gutter-width:         30px
+$grid-gutter-width:         0px;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
 // $grid-float-breakpoint:     $screen-sm-min
@@ -330,12 +330,12 @@
 // $container-sm:                 $container-tablet
 
 // Medium screen / desktop
-// $container-desktop:            (940px + $grid-gutter-width)
+$container-desktop:            (748px + $grid-gutter-width);
 //** For `$screen-md-min` and up.
 // $container-md:                 $container-desktop
 
 // Large screen / wide desktop
-// $container-large-desktop:      (1140px + $grid-gutter-width)
+$container-large-desktop:      (748px + $grid-gutter-width);
 //** For `$screen-lg-min` and up.
 // $container-lg:                 $container-large-desktop
 
