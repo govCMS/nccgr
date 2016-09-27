@@ -55,42 +55,49 @@ body {
   background-color: #5c7d86;
 }
 
-/* line 52, ../src/sass/styles.scss */
+/* line 51, ../src/sass/styles.scss */
+.submitted {
+  margin-bottom: 1em;
+  color: #acacac;
+  font-weight: bold;
+}
+
+/* line 57, ../src/sass/styles.scss */
 .main-container #content {
   background: #E2EBF8;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-/* line 56, ../src/sass/styles.scss */
+/* line 61, ../src/sass/styles.scss */
 .main-container #content a, .main-container #content a:visited {
   color: #7f1d1d;
 }
-/* line 59, ../src/sass/styles.scss */
+/* line 64, ../src/sass/styles.scss */
 .main-container #content a:hover {
   color: #c40000;
 }
-/* line 62, ../src/sass/styles.scss */
+/* line 67, ../src/sass/styles.scss */
 .main-container #content #main-content-section {
   padding: 1em 2em;
   background: #fff;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-/* line 69, ../src/sass/styles.scss */
+/* line 74, ../src/sass/styles.scss */
 .main-container #content .links.inline li {
   padding: 0.5em 0;
 }
-/* line 74, ../src/sass/styles.scss */
+/* line 79, ../src/sass/styles.scss */
 .main-container #content table th, .main-container #content table td {
   border-bottom: 1px solid #ccc;
   padding: 0.5em;
 }
-/* line 78, ../src/sass/styles.scss */
+/* line 83, ../src/sass/styles.scss */
 .main-container #content table th {
   background: #efefef;
 }
 
-/* line 85, ../src/sass/styles.scss */
+/* line 90, ../src/sass/styles.scss */
 .region-sidebar-second h2 {
   text-transform: uppercase;
   font-size: 14px;
@@ -98,23 +105,23 @@ body {
   padding: 0.8em 1em 0.9em;
   margin-bottom: 1em;
 }
-/* line 92, ../src/sass/styles.scss */
+/* line 97, ../src/sass/styles.scss */
 .region-sidebar-second .search-form-widget {
   padding: 0.8em 1em 0.9em;
 }
-/* line 94, ../src/sass/styles.scss */
+/* line 99, ../src/sass/styles.scss */
 .region-sidebar-second .search-form-widget input, .region-sidebar-second .search-form-widget .form-type-textfield {
   display: inline;
 }
-/* line 97, ../src/sass/styles.scss */
+/* line 102, ../src/sass/styles.scss */
 .region-sidebar-second .search-form-widget .form-type-textfield input {
   width: 110px;
 }
-/* line 101, ../src/sass/styles.scss */
+/* line 106, ../src/sass/styles.scss */
 .region-sidebar-second .view-content {
   padding: 0.8em 1em 0.9em;
 }
-/* line 104, ../src/sass/styles.scss */
+/* line 109, ../src/sass/styles.scss */
 .region-sidebar-second ul.menu {
   padding-left: 1.8em;
 }
