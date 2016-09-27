@@ -80,6 +80,44 @@ body {
 .main-container #content .links.inline li {
   padding: 0.5em 0;
 }
+/* line 74, ../src/sass/styles.scss */
+.main-container #content table th, .main-container #content table td {
+  border-bottom: 1px solid #ccc;
+  padding: 0.5em;
+}
+/* line 78, ../src/sass/styles.scss */
+.main-container #content table th {
+  background: #efefef;
+}
+
+/* line 85, ../src/sass/styles.scss */
+.region-sidebar-second h2 {
+  text-transform: uppercase;
+  font-size: 14px;
+  background: #cadfed;
+  padding: 0.8em 1em 0.9em;
+  margin-bottom: 1em;
+}
+/* line 92, ../src/sass/styles.scss */
+.region-sidebar-second .search-form-widget {
+  padding: 0.8em 1em 0.9em;
+}
+/* line 94, ../src/sass/styles.scss */
+.region-sidebar-second .search-form-widget input, .region-sidebar-second .search-form-widget .form-type-textfield {
+  display: inline;
+}
+/* line 97, ../src/sass/styles.scss */
+.region-sidebar-second .search-form-widget .form-type-textfield input {
+  width: 110px;
+}
+/* line 101, ../src/sass/styles.scss */
+.region-sidebar-second .view-content {
+  padding: 0.8em 1em 0.9em;
+}
+/* line 104, ../src/sass/styles.scss */
+.region-sidebar-second ul.menu {
+  padding-left: 1.8em;
+}
 
 /*
  * ======================
