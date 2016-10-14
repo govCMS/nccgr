@@ -6,7 +6,7 @@
 ?>
 <header id="header" class="header <?php print $container_class; ?>" role="banner">
   <?php print render($page['header']); ?>
-  <h1><a href="/"><?php print $site_name; ?></a></h1>
+  <h1><a href="/" style="color: #fff;"><?php print $site_name; ?></a></h1>
 </header><!-- /#page-header -->
 
 <main>
